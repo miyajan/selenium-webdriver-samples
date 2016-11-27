@@ -4,11 +4,7 @@ const By = webdriver.By;
 const test = require('selenium-webdriver/testing');
 
 test.describe('Reserve App', function() {
-    this.timeout(300000);
-
     test.it('should work', function*() {
-        const driver = new webdriver.Builder().forBrowser('chrome').build();
-
         const tomorrow = new Date();
         tomorrow.setDate(tomorrow.getDate() + 1);
 
@@ -25,6 +21,5 @@ test.describe('Reserve App', function() {
 
         const title = yield driver.getTitle();
         assert(title === '予約完了');
-        driver.quit();
     });
 });
