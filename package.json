@@ -1,5 +1,5 @@
 {
-  "name": "webdriverjs-example",
+  "name": "selenium-webdriver-samples",
   "version": "1.0.0",
   "description": "An example of selenium testing with selenium-webdriver.",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyajan/webdriverjs-example.git"
+    "url": "git+https://github.com/miyajan/selenium-webdriver-samples.git"
   },
   "author": "miyajan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miyajan/webdriverjs-example/issues"
+    "url": "https://github.com/miyajan/selenium-webdriver-samples/issues"
   },
-  "homepage": "https://github.com/miyajan/webdriverjs-example#readme"
+  "homepage": "https://github.com/miyajan/selenium-webdriver-samples#readme"
 }
