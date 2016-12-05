@@ -16,6 +16,6 @@ test.describe('Reserve App', function() {
         const finalPage = confirmPage.confirm();
 
         const title = yield finalPage.getTitle();
-        assert(title === '予約完了');
+        assert(title === 'hogehoge');
     });
 });
