@@ -1,5 +1,5 @@
-# webdriverjs-example
-An example of selenium testing with WebDriverJS.
+# selenium-webdriver-samples
+An example of selenium testing with selenium-webdriver.
 
 ## Usage
 
